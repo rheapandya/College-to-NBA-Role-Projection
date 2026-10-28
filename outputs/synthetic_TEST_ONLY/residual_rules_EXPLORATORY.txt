@@ -1,0 +1,85 @@
+EXPLORATORY. Trees fit on all data, so these rules are in-sample. Values are standardized residuals (+ = player did more than projected). Trust a rule only if its target's out-of-sample R^2 above is clearly positive.
+=== nba_3pa_per100  (out-of-sample R^2 of residuals = -0.224) ===
+|--- weight_lb <= 179.32
+|   |--- value: [-0.58]
+|--- weight_lb >  179.32
+|   |--- stl_pct <= 1.44
+|   |   |--- tov_pct <= 18.58
+|   |   |   |--- value: [0.05]
+|   |   |--- tov_pct >  18.58
+|   |   |   |--- value: [0.64]
+|   |--- stl_pct >  1.44
+|   |   |--- three_par <= 0.10
+|   |   |   |--- value: [-0.36]
+|   |   |--- three_par >  0.10
+|   |   |   |--- value: [0.02]
+
+=== nba_ast_pct  (out-of-sample R^2 of residuals = -0.076) ===
+|--- ast_pct <= 28.67
+|   |--- three_pct <= 0.27
+|   |   |--- tov_pct <= 16.13
+|   |   |   |--- value: [0.78]
+|   |   |--- tov_pct >  16.13
+|   |   |   |--- value: [0.16]
+|   |--- three_pct >  0.27
+|   |   |--- stl_pct <= 2.88
+|   |   |   |--- value: [-0.04]
+|   |   |--- stl_pct >  2.88
+|   |   |   |--- value: [-0.52]
+|--- ast_pct >  28.67
+|   |--- value: [0.84]
+
+=== nba_stocks_pct  (out-of-sample R^2 of residuals = -0.173) ===
+|--- mpg <= 33.94
+|   |--- mpg <= 26.37
+|   |   |--- weight_lb <= 213.38
+|   |   |   |--- value: [-0.32]
+|   |   |--- weight_lb >  213.38
+|   |   |   |--- value: [0.15]
+|   |--- mpg >  26.37
+|   |   |--- weight_lb <= 219.13
+|   |   |   |--- value: [0.28]
+|   |   |--- weight_lb >  219.13
+|   |   |   |--- value: [-0.03]
+|--- mpg >  33.94
+|   |--- age_at_draft <= 20.16
+|   |   |--- three_par <= 0.44
+|   |   |   |--- value: [-0.85]
+|   |   |--- three_par >  0.44
+|   |   |   |--- value: [-0.30]
+|   |--- age_at_draft >  20.16
+|   |   |--- value: [0.14]
+
+=== nba_trb_pct  (out-of-sample R^2 of residuals = -0.127) ===
+|--- three_pct <= 0.26
+|   |--- age_at_draft <= 20.68
+|   |   |--- value: [0.25]
+|   |--- age_at_draft >  20.68
+|   |   |--- value: [-1.19]
+|--- three_pct >  0.26
+|   |--- stl_pct <= 1.61
+|   |   |--- stl_pct <= 1.55
+|   |   |   |--- value: [-0.09]
+|   |   |--- stl_pct >  1.55
+|   |   |   |--- value: [-0.66]
+|   |--- stl_pct >  1.61
+|   |   |--- stl_pct <= 1.82
+|   |   |   |--- value: [0.46]
+|   |   |--- stl_pct >  1.82
+|   |   |   |--- value: [0.03]
+
+=== nba_usg  (out-of-sample R^2 of residuals = -0.159) ===
+|--- sos <= -1.15
+|   |--- three_pct <= 0.35
+|   |   |--- value: [-0.87]
+|   |--- three_pct >  0.35
+|   |   |--- value: [0.27]
+|--- sos >  -1.15
+|   |--- sos <= -0.94
+|   |   |--- value: [0.46]
+|   |--- sos >  -0.94
+|   |   |--- ts_pct <= 0.62
+|   |   |   |--- value: [-0.04]
+|   |   |--- ts_pct >  0.62
+|   |   |   |--- value: [0.31]
+

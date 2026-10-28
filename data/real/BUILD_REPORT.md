@@ -1,0 +1,228 @@
+# Build report (data/real)
+
+- Draft rows read: 836. Classes before 2011 dropped (no prior-season team table): 60 rows removed; 776 remain.
+- Matched to Torvik: 615. Unmatched: 161.
+- Ambiguous NBA-index name matches resolved by earliest rookie year: 0.
+- Drafting-team context missing for 0 prospects.
+- Classes with fewer than 3 possible NBA seasons in the exports (through 2026): none.
+- prospects.csv: 615 rows. nba_outcomes.csv: 591 rows (477 with >= 500 minutes).
+- Classes: 2011: 46, 2012: 51, 2013: 45, 2014: 45, 2015: 46, 2016: 44, 2017: 50, 2018: 50, 2019: 51, 2020: 48, 2021: 50, 2022: 43, 2023: 46
+- Position mix (from Torvik role): {'G': 295, 'B': 173, 'W': 147}
+- Share missing by column: {'weight_lb': 0.039, 'team_pace': 1.0, 'team_open_minutes': 1.0}
+
+## Unmatched draftees
+
+- 2011 Enes Freedom: no college listed (intl / G League)
+- 2011 Jonas Valančiūnas: no college listed (intl / G League)
+- 2011 Jan Veselý: no college listed (intl / G League)
+- 2011 Bismack Biyombo: no college listed (intl / G League)
+- 2011 Donatas Motiejūnas: no college listed (intl / G League)
+- 2011 Nikola Mirotić: no college listed (intl / G League)
+- 2011 Bojan Bogdanović: no college listed (intl / G League)
+- 2011 Jeremy Tyler: no college listed (intl / G League)
+- 2011 Dāvis Bertāns: no college listed (intl / G League)
+- 2011 Milan Mačvan: no college listed (intl / G League)
+- 2011 Chukwudiebere Maduabum: no college listed (intl / G League)
+- 2011 Tanguy Ngombo: no college listed (intl / G League)
+- 2011 Ater Majok: no college listed (intl / G League)
+- 2011 Ádám Hanga: no college listed (intl / G League)
+- 2012 Evan Fournier: no college listed (intl / G League)
+- 2012 Tomáš Satoranský: no college listed (intl / G League)
+- 2012 Kostas Papanikolaou: no college listed (intl / G League)
+- 2012 İzzet Türkyılmaz: no college listed (intl / G League)
+- 2012 Ognjen Kuzmić: no college listed (intl / G League)
+- 2012 Furkan Aldemir: no college listed (intl / G League)
+- 2012 Tornike Shengelia: no college listed (intl / G League)
+- 2012 Tomislav Zubčić: no college listed (intl / G League)
+- 2012 İlkan Karaman: no college listed (intl / G League)
+- 2013 Giannis Antetokounmpo: no college listed (intl / G League)
+- 2013 Lucas Nogueira: no college listed (intl / G League)
+- 2013 Dennis Schröder: no college listed (intl / G League)
+- 2013 Sergey Karasev: no college listed (intl / G League)
+- 2013 Rudy Gobert: no college listed (intl / G League)
+- 2013 Livio Jean-Charles: no college listed (intl / G League)
+- 2013 Nemanja Nedović: no college listed (intl / G League)
+- 2013 Álex Abrines: no college listed (intl / G League)
+- 2013 Glen Rice Jr.: college 'Georgia Tech' but no Torvik row in 2013
+- 2013 Ricky Ledo: college 'Providence' but no Torvik row in 2013
+- 2013 Marko Todorović: no college listed (intl / G League)
+- 2013 Raul Neto: no college listed (intl / G League)
+- 2013 Joffrey Lauvergne: no college listed (intl / G League)
+- 2013 Bojan Dubljević: no college listed (intl / G League)
+- 2013 Jānis Timma: no college listed (intl / G League)
+- 2014 Danté Exum: no college listed (intl / G League)
+- 2014 Dario Šarić: no college listed (intl / G League)
+- 2014 Jusuf Nurkić: no college listed (intl / G League)
+- 2014 Bruno Caboclo: no college listed (intl / G League)
+- 2014 Clint Capela: no college listed (intl / G League)
+- 2014 P.J. Hairston: college 'UNC' but no Torvik row in 2014
+- 2014 Bogdan Bogdanović: no college listed (intl / G League)
+- 2014 Damien Inglis: no college listed (intl / G League)
+- 2014 Nikola Jokić: no college listed (intl / G League)
+- 2014 Edy Tavares: no college listed (intl / G League)
+- 2014 Thanasis Antetokounmpo: no college listed (intl / G League)
+- 2014 Vasilije Micić: no college listed (intl / G League)
+- 2014 Alessandro Gentile: no college listed (intl / G League)
+- 2014 Nemanja Dangubić: no college listed (intl / G League)
+- 2014 Louis Labeyrie: no college listed (intl / G League)
+- 2015 Kristaps Porziņģis: no college listed (intl / G League)
+- 2015 Mario Hezonja: no college listed (intl / G League)
+- 2015 Emmanuel Mudiay: no college listed (intl / G League)
+- 2015 Nikola Milutinov: no college listed (intl / G League)
+- 2015 Cedi Osman: no college listed (intl / G League)
+- 2015 Willy Hernangómez: no college listed (intl / G League)
+- 2015 Juan Pablo Vaulet: no college listed (intl / G League)
+- 2015 Artūras Gudaitis: no college listed (intl / G League)
+- 2015 Marcus Eriksson: no college listed (intl / G League)
+- 2015 Satnam Singh: no college listed (intl / G League)
+- 2015 Dani Díez: no college listed (intl / G League)
+- 2015 Nikola Radičević: no college listed (intl / G League)
+- 2015 Dimitrios Agravanis: no college listed (intl / G League)
+- 2015 Luka Mitrović: no college listed (intl / G League)
+- 2016 Dragan Bender: no college listed (intl / G League)
+- 2016 Thon Maker: no college listed (intl / G League)
+- 2016 Georgios Papagiannis: no college listed (intl / G League)
+- 2016 Juancho Hernangómez: no college listed (intl / G League)
+- 2016 Guerschon Yabusele: no college listed (intl / G League)
+- 2016 Ante Žižić: no college listed (intl / G League)
+- 2016 Timothé Luwawu-Cabarrot: no college listed (intl / G League)
+- 2016 Furkan Korkmaz: no college listed (intl / G League)
+- 2016 Ivica Zubac: no college listed (intl / G League)
+- 2016 Rade Zagorac: no college listed (intl / G League)
+- 2016 David Michineau: no college listed (intl / G League)
+- 2016 Zhou Qi: no college listed (intl / G League)
+- 2016 Isaïa Cordinier: no college listed (intl / G League)
+- 2016 Paul Zipser: no college listed (intl / G League)
+- 2016 Petr Cornelie: no college listed (intl / G League)
+- 2016 Wang Zhelin: no college listed (intl / G League)
+- 2017 Frank Ntilikina: no college listed (intl / G League)
+- 2017 Terrance Ferguson: no college listed (intl / G League)
+- 2017 Anžejs Pasečņiks: no college listed (intl / G League)
+- 2017 Jonah Bolden: no college listed (intl / G League)
+- 2017 Isaiah Hartenstein: no college listed (intl / G League)
+- 2017 Vlatko Čančar: no college listed (intl / G League)
+- 2017 Mathias Lessort: no college listed (intl / G League)
+- 2017 Sasha Vezenkov: no college listed (intl / G League)
+- 2017 Ognjen Jaramaz: no college listed (intl / G League)
+- 2017 Alpha Kaba: no college listed (intl / G League)
+- 2018 Luka Dončić: no college listed (intl / G League)
+- 2018 Anfernee Simons: no college listed (intl / G League)
+- 2018 Džanan Musa: no college listed (intl / G League)
+- 2018 Elie Okobo: no college listed (intl / G League)
+- 2018 Mitchell Robinson: no college listed (intl / G League)
+- 2018 Isaac Bonga: no college listed (intl / G League)
+- 2018 Rodions Kurucs: no college listed (intl / G League)
+- 2018 Issuf Sanon: no college listed (intl / G League)
+- 2018 De'Anthony Melton: college 'USC' but no Torvik row in 2018
+- 2018 Arnoldas Kulboka: no college listed (intl / G League)
+- 2019 Sekou Doumbouya: no college listed (intl / G League)
+- 2019 Goga Bitadze: no college listed (intl / G League)
+- 2019 Luka Šamanić: no college listed (intl / G League)
+- 2019 Darius Bazley: no college listed (intl / G League)
+- 2019 Didi Louzada: no college listed (intl / G League)
+- 2019 Deividas Sirvydis: no college listed (intl / G League)
+- 2019 Alen Smailagić: no college listed (intl / G League)
+- 2019 Dewan Hernandez: college 'Miami (FL)' but no Torvik row in 2019
+- 2019 Vanja Marinković: no college listed (intl / G League)
+- 2020 LaMelo Ball: no college listed (intl / G League)
+- 2020 Killian Hayes: no college listed (intl / G League)
+- 2020 Deni Avdija: no college listed (intl / G League)
+- 2020 Aleksej Pokusevski: no college listed (intl / G League)
+- 2020 Leandro Bolmaro: no college listed (intl / G League)
+- 2020 R.J. Hampton: no college listed (intl / G League)
+- 2020 Théo Maledon: no college listed (intl / G League)
+- 2020 Vít Krejčí: no college listed (intl / G League)
+- 2020 Marko Simonovic: no college listed (intl / G League)
+- 2020 Yam Madar: no college listed (intl / G League)
+- 2020 KJ Martin: no college listed (intl / G League)
+- 2020 Jay Scrubb: college 'John A. Logan College' but no Torvik row in 2020
+- 2021 Jalen Green: no college listed (intl / G League)
+- 2021 Josh Giddey: no college listed (intl / G League)
+- 2021 Jonathan Kuminga: no college listed (intl / G League)
+- 2021 Alperen Şengün: no college listed (intl / G League)
+- 2021 Usman Garuba: no college listed (intl / G League)
+- 2021 Isaiah Todd: no college listed (intl / G League)
+- 2021 Rokas Jokubaitis: no college listed (intl / G League)
+- 2021 Juhann Begarin: no college listed (intl / G League)
+- 2021 Filip Petrušev: college 'Gonzaga' but no Torvik row in 2021
+- 2021 Georgios Kalaitzakis: no college listed (intl / G League)
+- 2022 Shaedon Sharpe: college 'Kentucky' but no Torvik row in 2022
+- 2022 Dyson Daniels: no college listed (intl / G League)
+- 2022 Ousmane Dieng: no college listed (intl / G League)
+- 2022 MarJon Beauchamp: no college listed (intl / G League)
+- 2022 Nikola Jović: no college listed (intl / G League)
+- 2022 Gabriele Procida: no college listed (intl / G League)
+- 2022 Jaden Hardy: no college listed (intl / G League)
+- 2022 Khalifa Diop: no college listed (intl / G League)
+- 2022 Ismael Kamagate: no college listed (intl / G League)
+- 2022 Matteo Spagnolo: no college listed (intl / G League)
+- 2022 Karlo Matković: no college listed (intl / G League)
+- 2022 Yannick Nzosa: no college listed (intl / G League)
+- 2022 Gui Santos: no college listed (intl / G League)
+- 2022 Luke Travers: no college listed (intl / G League)
+- 2022 Hugo Besson: no college listed (intl / G League)
+- 2023 Victor Wembanyama: no college listed (intl / G League)
+- 2023 Scoot Henderson: no college listed (intl / G League)
+- 2023 Amen Thompson: no college listed (intl / G League)
+- 2023 Ausar Thompson: no college listed (intl / G League)
+- 2023 Bilal Coulibaly: no college listed (intl / G League)
+- 2023 James Nnaji: no college listed (intl / G League)
+- 2023 Leonard Miller: no college listed (intl / G League)
+- 2023 Tristan Vukcevic: no college listed (intl / G League)
+- 2023 Rayan Rupert: no college listed (intl / G League)
+- 2023 Sidy Cissoko: no college listed (intl / G League)
+- 2023 Mojave King: no college listed (intl / G League)
+- 2023 Tarik Biberovic: no college listed (intl / G League)
+
+## Matched with a flag: school differs or fuzzy name (check by hand)
+
+- 2011 Kemba Walker: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2011 Trey Thompkins: fuzzy name match: BR 'Trey Thompkins' -> Torvik 'Howard Thompkins III'
+- 2012 Harrison Barnes: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2012 Andre Drummond: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2012 Jeremy Lamb: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2012 Kendall Marshall: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2012 John Henson: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2012 Maurice Harkless: fuzzy name match: BR 'Maurice Harkless' -> Torvik 'Moe Harkless'
+- 2012 Tyler Zeller: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2012 Jeff Taylor: fuzzy name match: BR 'Jeff Taylor' -> Torvik 'Jeffery Taylor'
+- 2013 Reggie Bullock: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2013 James Ennis III: school differs: BR 'Cal State Long Beach' vs Torvik 'Long Beach St.'
+- 2014 Shabazz Napier: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2014 DeAndre Daniels: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2014 Devyn Marble: fuzzy name match: BR 'Devyn Marble' -> Torvik 'Roy Devyn Marble'
+- 2015 Joe Young: fuzzy name match: BR 'Joe Young' -> Torvik 'Joseph Young'
+- 2015 Cady Lalanne: school differs: BR 'UMass' vs Torvik 'Massachusetts'
+- 2015 J.P. Tokoto: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2016 Brice Johnson: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2016 Kay Felder: fuzzy name match: BR 'Kay Felder' -> Torvik 'Kahlil Felder'
+- 2016 Marcus Paige: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2016 Daniel Hamilton: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2017 Bam Adebayo: fuzzy name match: BR 'Bam Adebayo' -> Torvik 'Edrice Adebayo'
+- 2017 Justin Jackson: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2017 Tony Bradley: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2017 Wes Iwundu: fuzzy name match: BR 'Wes Iwundu' -> Torvik 'Wesley Iwundu'
+- 2017 Damyean Dotson: school differs: BR 'Oregon' vs Torvik 'Houston'
+- 2018 Mo Bamba: fuzzy name match: BR 'Mo Bamba' -> Torvik 'Mohamed Bamba'
+- 2018 Svi Mykhailiuk: fuzzy name match: BR 'Svi Mykhailiuk' -> Torvik 'Sviatoslav Mykhailiuk'
+- 2018 Vince Edwards: fuzzy name match: BR 'Vince Edwards' -> Torvik 'Vincent Edwards'
+- 2019 Coby White: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2019 Cameron Johnson: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2019 Nassir Little: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2019 Nic Claxton: fuzzy name match: BR 'Nic Claxton' -> Torvik 'Nicolas Claxton'
+- 2020 Cole Anthony: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2021 James Bouknight: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2021 Bones Hyland: fuzzy name match: BR 'Bones Hyland' -> Torvik 'Nah'Shon Hyland'
+- 2021 Cam Thomas: fuzzy name match: BR 'Cam Thomas' -> Torvik 'Cameron Thomas'
+- 2021 Day'Ron Sharpe: school differs: BR 'UNC' vs Torvik 'North Carolina'
+- 2022 Tyrese Martin: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2023 Taylor Hendricks: school differs: BR 'Central Florida' vs Torvik 'UCF'
+- 2023 Jordan Hawkins: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2023 Andre Jackson Jr.: school differs: BR 'UConn' vs Torvik 'Connecticut'
+- 2023 GG Jackson II: fuzzy name match: BR 'GG Jackson II' -> Torvik 'Gregory Jackson'
+
+## Missing drafting-team context
+
+Empty DataFrame
+Columns: [draft_year, name, tm]
+Index: []

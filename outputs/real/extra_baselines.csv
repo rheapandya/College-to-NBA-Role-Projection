@@ -1,0 +1,16 @@
+target,baseline,skill_r2,lo,hi
+nba_3pa_per100,position_height,0.32,0.25,0.386
+nba_3pa_per100,same_stat,0.605,0.534,0.658
+nba_3pa_per100,ridge_player (full model),0.642,0.564,0.695
+nba_ast_pct,position_height,0.379,0.3,0.456
+nba_ast_pct,same_stat,0.575,0.506,0.642
+nba_ast_pct,ridge_player (full model),0.629,0.565,0.688
+nba_stocks_pct,position_height,0.351,0.282,0.407
+nba_stocks_pct,same_stat,0.65,0.593,0.695
+nba_stocks_pct,ridge_player (full model),0.669,0.588,0.717
+nba_trb_pct,position_height,0.692,0.65,0.732
+nba_trb_pct,same_stat,0.757,0.716,0.789
+nba_trb_pct,ridge_player (full model),0.792,0.766,0.811
+nba_usg,position_height,0.038,-0.005,0.078
+nba_usg,same_stat,0.185,0.125,0.244
+nba_usg,ridge_player (full model),0.379,0.315,0.437

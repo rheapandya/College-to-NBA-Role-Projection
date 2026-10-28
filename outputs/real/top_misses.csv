@@ -1,0 +1,51 @@
+target,kind,name,draft_year,draft_pick,y,pred,resid,model
+nba_3pa_per100,over-projected (did less than expected),Tristan Thompson,2011,4,0.060589486478274,7.008112354004288,-6.947522867526014,ridge_player
+nba_3pa_per100,over-projected (did less than expected),Brandon Ingram,2016,2,3.0684236780844696,8.0617245801171,-4.9933009020326296,ridge_player
+nba_3pa_per100,over-projected (did less than expected),Charles Jenkins,2011,44,0.8694152923538231,5.848810179824009,-4.979394887470186,ridge_player
+nba_3pa_per100,over-projected (did less than expected),Jon Leuer,2011,40,2.344291907514451,7.018314317706903,-4.6740224101924515,ridge_player
+nba_3pa_per100,over-projected (did less than expected),Blake Wesley,2022,25,3.5473967684021543,8.1251648527507,-4.577768084348546,ridge_player
+nba_3pa_per100,under-projected (did more than expected),Joel Embiid,2014,3,5.690972794723825,-0.2744299270987254,5.96540272182255,ridge_player
+nba_3pa_per100,under-projected (did more than expected),Devonte' Graham,2018,34,12.871425428948529,7.349859664714747,5.521565764233782,ridge_player
+nba_3pa_per100,under-projected (did more than expected),Tyrese Martin,2022,51,10.456719184430026,5.72049273429788,4.736226450132146,ridge_player
+nba_3pa_per100,under-projected (did more than expected),Josh Harrellson,2011,45,5.451351351351351,0.7896997824532326,4.661651568898119,ridge_player
+nba_3pa_per100,under-projected (did more than expected),Isaiah Canaan,2013,34,12.301394169835234,7.836163138604197,4.465231031231037,ridge_player
+nba_ast_pct,over-projected (did less than expected),Landry Shamet,2018,26,9.121558943525876,21.09877833749484,-11.977219393968962,gbm_player
+nba_ast_pct,over-projected (did less than expected),Jarrett Culver,2019,6,10.265471617584293,20.867556920801032,-10.60208530321674,gbm_player
+nba_ast_pct,over-projected (did less than expected),Kira Lewis Jr.,2020,13,18.644932432432437,28.579730074518437,-9.934797642086,gbm_player
+nba_ast_pct,over-projected (did less than expected),Jevon Carter,2018,32,13.669629298794105,22.459306565961974,-8.78967726716787,gbm_player
+nba_ast_pct,over-projected (did less than expected),Tristan Thompson,2011,4,5.175296262534185,13.678967089319222,-8.503670826785036,gbm_player
+nba_ast_pct,under-projected (did more than expected),Kevin Porter Jr.,2019,30,25.806531762295084,9.199375875714574,16.607155886580507,gbm_player
+nba_ast_pct,under-projected (did more than expected),Cade Cunningham,2021,1,33.059140727750986,16.56499992169296,16.494140806058027,gbm_player
+nba_ast_pct,under-projected (did more than expected),Trae Young,2018,5,43.67679312388856,29.725722714417163,13.951070409471395,gbm_player
+nba_ast_pct,under-projected (did more than expected),Kendall Marshall,2012,13,38.3498695490123,24.624656547561003,13.725213001451294,gbm_player
+nba_ast_pct,under-projected (did more than expected),Tyrese Haliburton,2020,12,35.49682163187856,22.164111025015917,13.332710606862644,gbm_player
+nba_stocks_pct,over-projected (did less than expected),Cheick Diallo,2016,33,4.18609785202864,7.586319161622983,-3.400221309594343,ridge_player
+nba_stocks_pct,over-projected (did less than expected),James Wiseman,2020,2,3.684216177523264,6.867880161308518,-3.1836639837852543,ridge_player
+nba_stocks_pct,over-projected (did less than expected),Henry Ellenson,2016,18,1.2433242506811988,4.010645868597243,-2.7673216179160445,ridge_player
+nba_stocks_pct,over-projected (did less than expected),Meyers Leonard,2012,11,2.3803986710963456,4.892536733033368,-2.5121380619370224,ridge_player
+nba_stocks_pct,over-projected (did less than expected),Skal Labissière,2016,28,4.203944773175541,6.251200631491123,-2.047255858315582,ridge_player
+nba_stocks_pct,under-projected (did more than expected),Robert Williams,2018,27,11.357669082125604,6.120402419456994,5.23726666266861,ridge_player
+nba_stocks_pct,under-projected (did more than expected),Jaden Springer,2021,28,6.555481727574751,3.0120979800349597,3.5433837475397914,ridge_player
+nba_stocks_pct,under-projected (did more than expected),Paul Reed,2020,58,9.397893030794163,6.302977185521137,3.094915845273026,ridge_player
+nba_stocks_pct,under-projected (did more than expected),Mouhamed Gueye,2023,39,6.350588235294118,3.668357551418703,2.6822306838754146,ridge_player
+nba_stocks_pct,under-projected (did more than expected),Daniel Gafford,2019,38,8.199753867791841,5.547074979515008,2.6526788882768333,ridge_player
+nba_trb_pct,over-projected (did less than expected),Jaren Jackson Jr.,2018,4,9.53316642120766,14.780850942614608,-5.247684521406947,ridge_player
+nba_trb_pct,over-projected (did less than expected),Perry Jones,2012,28,8.403044776119403,13.003632652146829,-4.600587876027426,ridge_player
+nba_trb_pct,over-projected (did less than expected),Damian Jones,2016,30,10.375342465753429,14.520338189007141,-4.144995723253713,ridge_player
+nba_trb_pct,over-projected (did less than expected),Jerami Grant,2014,39,8.382991556091676,12.268271811432406,-3.8852802553407297,ridge_player
+nba_trb_pct,over-projected (did less than expected),Robert Sacre,2012,60,11.709814432989692,15.407654032497469,-3.697839599507777,ridge_player
+nba_trb_pct,under-projected (did more than expected),Tristan Thompson,2011,4,16.594378608325737,6.149524722993908,10.44485388533183,ridge_player
+nba_trb_pct,under-projected (did more than expected),Andre Drummond,2012,9,22.753504085480827,16.21474877843277,6.538755307048056,ridge_player
+nba_trb_pct,under-projected (did more than expected),Tony Bradley,2017,28,22.191895604395604,15.719533418932773,6.472362185462831,ridge_player
+nba_trb_pct,under-projected (did more than expected),Dejounte Murray,2016,29,12.902985074626866,7.182118909271518,5.720866165355348,ridge_player
+nba_trb_pct,under-projected (did more than expected),Paul Reed,2020,58,19.428282009724477,13.902897036625017,5.5253849730994595,ridge_player
+nba_usg,over-projected (did less than expected),Romeo Langford,2019,14,12.296207865168538,19.65271869621641,-7.356510831047872,ridge_player
+nba_usg,over-projected (did less than expected),Isaac Okoro,2020,5,12.968842576644851,19.895543231414933,-6.926700654770082,ridge_player
+nba_usg,over-projected (did less than expected),Andre Roberson,2013,26,9.183508338480545,16.104476913632364,-6.92096857515182,ridge_player
+nba_usg,over-projected (did less than expected),Jericho Sims,2021,58,6.83826844262295,13.6613845625963,-6.82311611997335,ridge_player
+nba_usg,over-projected (did less than expected),Rashad Vaughn,2015,17,14.539497307001795,21.250978107241107,-6.711480800239311,ridge_player
+nba_usg,under-projected (did more than expected),Joel Embiid,2014,3,33.77679307502061,19.22854260454494,14.548250470475672,ridge_player
+nba_usg,under-projected (did more than expected),Donovan Mitchell,2017,13,30.483394736842104,19.261294575187367,11.222100161654737,ridge_player
+nba_usg,under-projected (did more than expected),Brandon Boston Jr.,2021,51,23.91648189209165,15.74918847234102,8.16729341975063,ridge_player
+nba_usg,under-projected (did more than expected),Devin Booker,2015,13,27.701402357153512,19.778402442400854,7.922999914752658,ridge_player
+nba_usg,under-projected (did more than expected),Dalano Banton,2021,46,22.46394658753709,14.856099868276925,7.607846719260166,ridge_player

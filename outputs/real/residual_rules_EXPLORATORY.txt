@@ -1,0 +1,88 @@
+EXPLORATORY. Trees fit on all data, so these rules are in-sample. Values are standardized residuals (+ = player did more than projected). Trust a rule only if its target's out-of-sample R^2 above is clearly positive.
+=== nba_3pa_per100  (out-of-sample R^2 of residuals = -0.095) ===
+|--- stl_pct <= 1.05
+|   |--- ast_pct <= 10.10
+|   |   |--- value: [-0.09]
+|   |--- ast_pct >  10.10
+|   |   |--- value: [-1.29]
+|--- stl_pct >  1.05
+|   |--- orb_pct <= 1.45
+|   |   |--- value: [0.76]
+|   |--- orb_pct >  1.45
+|   |   |--- drb_pct <= 8.65
+|   |   |   |--- value: [-0.60]
+|   |   |--- drb_pct >  8.65
+|   |   |   |--- value: [0.04]
+
+=== nba_ast_pct  (out-of-sample R^2 of residuals = -0.179) ===
+|--- log_pick <= 0.35
+|   |--- value: [0.69]
+|--- log_pick >  0.35
+|   |--- orb_pct <= 1.45
+|   |   |--- value: [0.57]
+|   |--- orb_pct >  1.45
+|   |   |--- drb_pct <= 9.45
+|   |   |   |--- value: [-0.41]
+|   |   |--- drb_pct >  9.45
+|   |   |   |--- value: [-0.00]
+
+=== nba_stocks_pct  (out-of-sample R^2 of residuals = -0.168) ===
+|--- orb_pct <= 13.95
+|   |--- blk_pct <= 7.85
+|   |   |--- mpg <= 24.06
+|   |   |   |--- value: [0.33]
+|   |   |--- mpg >  24.06
+|   |   |   |--- value: [-0.07]
+|   |--- blk_pct >  7.85
+|   |   |--- age_at_draft <= 20.59
+|   |   |   |--- value: [-0.10]
+|   |   |--- age_at_draft >  20.59
+|   |   |   |--- value: [1.36]
+|--- orb_pct >  13.95
+|   |--- value: [-0.63]
+
+=== nba_trb_pct  (out-of-sample R^2 of residuals = -0.085) ===
+|--- height_in <= 80.50
+|   |--- orb_pct <= 7.80
+|   |   |--- weight_lb <= 180.50
+|   |   |   |--- value: [0.60]
+|   |   |--- weight_lb >  180.50
+|   |   |   |--- value: [-0.05]
+|   |--- orb_pct >  7.80
+|   |   |--- pos_W <= 0.50
+|   |   |   |--- value: [-0.97]
+|   |   |--- pos_W >  0.50
+|   |   |   |--- value: [-0.37]
+|--- height_in >  80.50
+|   |--- age_at_draft <= 20.69
+|   |   |--- orb_pct <= 9.30
+|   |   |   |--- value: [-0.06]
+|   |   |--- orb_pct >  9.30
+|   |   |   |--- value: [0.83]
+|   |--- age_at_draft >  20.69
+|   |   |--- stl_pct <= 1.75
+|   |   |   |--- value: [-0.40]
+|   |   |--- stl_pct >  1.75
+|   |   |   |--- value: [0.40]
+
+=== nba_usg  (out-of-sample R^2 of residuals = -0.114) ===
+|--- log_pick <= 3.75
+|   |--- orb_pct <= 12.45
+|   |   |--- orb_pct <= 11.85
+|   |   |   |--- value: [-0.08]
+|   |   |--- orb_pct >  11.85
+|   |   |   |--- value: [-0.92]
+|   |--- orb_pct >  12.45
+|   |   |--- usg <= 24.05
+|   |   |   |--- value: [-0.14]
+|   |   |--- usg >  24.05
+|   |   |   |--- value: [0.88]
+|--- log_pick >  3.75
+|   |--- drb_pct <= 21.45
+|   |   |--- three_pct <= 0.40
+|   |   |   |--- value: [0.36]
+|   |   |--- three_pct >  0.40
+|   |   |   |--- value: [0.96]
+|   |--- drb_pct >  21.45
+|   |   |--- value: [-0.23]
+
